@@ -14,3 +14,4 @@ vinegar = int(input("Ounces of Vinegar: "))
 ingredient_3 = int(input("ingredient 3 (Crutons): "))
 crutons = int(input("Ounces of Crutons: "))
 
+Serving = ingredient_1 + ingredient_2 + ingredient_3 / 2.5
