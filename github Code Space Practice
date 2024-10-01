@@ -1,0 +1,16 @@
+'''
+Name: George Koniaris
+Date: 10/1/24
+Description: Unit 2 Homework 1
+'''
+
+
+ingredient_1 = int(input("Enter ingredient 1 (lettuce): "))
+Lettuce = int(input("Ounces of Lettuce: "))
+
+ingredient_2 = float(input("Enter ingredient 2 (Vinegar): "))
+vinegar = int(input("Ounces of Vinegar: "))
+
+ingredient_3 = int(input("ingredient 3 (Crutons): "))
+crutons = int(input("Ounces of Crutons: "))
+
