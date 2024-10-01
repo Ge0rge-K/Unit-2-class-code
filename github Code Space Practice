@@ -1,17 +1,54 @@
 '''
 Name: George Koniaris
 Date: 10/1/24
-Description: Unit 2 Homework 1
+Description: Class Practice Unit 2 Part 1
 '''
 
 
-ingredient_1 = int(input("Enter ingredient 1 (lettuce): "))
-Lettuce = int(input("Ounces of Lettuce: "))
 
-ingredient_2 = float(input("Enter ingredient 2 (Vinegar): "))
-vinegar = int(input("Ounces of Vinegar: "))
+print("What ingredients would you like on your salad? ")
 
-ingredient_3 = int(input("ingredient 3 (Crutons): "))
-crutons = int(input("Ounces of Crutons: "))
+ingredient_1 = (input("Enter ingredient 1: "))
+ounces_of_one = float(input(f"Ounces of {ingredient_1} "))
 
-Serving = ingredient_1 + ingredient_2 + ingredient_3 / 2.5
+
+ingredient_2 = (input("Enter ingredient 2: "))
+ounces_of_two = float(input(f"Ounces of {ingredient_2} "))
+
+
+ingredient_3 = (input("ingredient 3: "))
+ounces_of_three = float(input(f"Ounces of {ingredient_3} "))
+
+
+ingredient_4 = (input("ingredient 4: "))
+ounces_of_four = float(input(f"Ounces of {ingredient_4} "))
+
+
+ingredient_5 = (input("ingredient 5: "))
+ounces_of_five = float(input(f"Ounces of {ingredient_5} "))
+
+
+
+Servings = float(input(f"How many Servings do you want?"))
+
+
+serving_1 = ounces_of_one*Servings
+
+serving_2 = ounces_of_two*Servings
+
+serving_3 = ounces_of_three*Servings
+
+serving_4 = ounces_of_four*Servings
+
+serving_5 = ounces_of_five*Servings
+
+
+
+print(f"Total Oz of {ingredient_1} needed: {serving_1}")
+print(f"Total Oz of {ingredient_2} needed: {serving_2}")
+print(f"Total Oz of {ingredient_3} needed: {serving_3}")
+print(f"Total Oz of {ingredient_4} needed: {serving_4}")
+print(f"Total Oz of {ingredient_5} needed: {serving_5}")
+
+
+
