@@ -1,0 +1,53 @@
+
+
+
+# Name: George Koniaris
+# Date: 10/22/2024
+# Assignment: Unit 2 and 3 Project
+
+
+while True:
+user_month = input("Enter the name of the Month: ")
+month = user_month.title()
+day = input("Enter the day (1-31): ")
+
+day = int(day)
+
+season = ""
+
+if month in ["January", "February", "December"]:
+    season = "Winter"
+
+elif month in ["March", "April", "May"]:
+    season = "Spring"
+
+elif month in ["June", "July", "August"]:
+    season = "Summer"
+
+elif month in ["September", "October", "November"]:
+    season = "Fall"
+
+if month == "January" and 1 <= day <= 31:
+    print(f"{month} {day} is in {season}")
+elif month == "February" and 1 <= day <= 28:
+    print(f"{month} {day} is in {season}")
+elif month == "March" and 1 <= day <= 31:
+    print(f"{month} {day} is in {season}")
+elif month == "April" and 1 <= day <= 30:
+    print(f"{month} {day} is in {season}")
+elif month == "May" and 1 <= day <= 31:
+    print(f"{month} {day} is in {season}")
+elif month == "June" and 1 <= day <= 30:
+    print(f"{month} {day} is in {season}")
+elif month == "July" and 1 <= day <= 31:
+    print(f"{month} {day} is in {season}")
+elif month == "August" and 1 <= day <= 31:
+    print(f"{month} {day} is in {season}")
+elif month == "September" and 1 <= day <= 30:
+    print(f"{month} {day} is in {season}")
+elif month == "October" and 1 <= day <= 31:
+    print(f"{month} {day} is in {season}")
+elif month == "November" and 1 <= day <= 30:
+    print(f"{month} {day} is in {season}")
+else:
+    print("Please enter a valid date.")
